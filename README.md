@@ -54,10 +54,11 @@ https://www.programcreek.com/python/example/94867/tweepy.RateLimitError
 from listener.listener import Listener
 
 #### AUTHENTIFICATION (Informations à remplir)
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+
+##### consumer_key = ""
+##### consumer_secret = ""
+##### access_token = ""
+##### access_token_secret = ""
 
 #### DEFINITION DE LA TRACK LIST (Informations à remplir)
 track = ['mot_a_tracker_1', 'mot_a_tracker_1']
