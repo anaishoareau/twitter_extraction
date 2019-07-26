@@ -95,20 +95,11 @@ https://github.com/ksahnine/datascience-twitter/blob/master/scripts/collect/coll
 from collect.collect import collect
 
 #### AUTHENTIFICATION (Informations à remplir)
-consumer_key = ""\n
-consumer_secret = ""\n
-access_token = ""\n
-access_token_secret = ""\n
+
+##### consumer_key = ""
+##### consumer_secret = ""
+##### access_token = ""
+##### access_token_secret = ""
 
 #### LANCEMENT DE LA COLLECTE (Informations à remplir)
-collect('mot_a_tacker',consumer_key, consumer_secret, access_token, access_token_secret, extracted_tweets_dir_path)
-
-Exemple d'utilisation du collecteur
-IMPORT
-from collect.collect import collect
-
-AUTHENTIFICATION (Informations à remplir)
-consumer_key = "" consumer_secret = "" access_token = "" access_token_secret = ""
-
-LANCEMENT DE LA COLLECTE (Informations à remplir)
 collect('mot_a_tacker',consumer_key, consumer_secret, access_token, access_token_secret, extracted_tweets_dir_path)
