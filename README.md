@@ -60,8 +60,10 @@ from listener.listener import Listener
 ##### access_token = ""
 ##### access_token_secret = ""
 
-#### DEFINITION DE LA TRACK LIST (Informations à remplir)
+#### DEFINITION DES CONSTANTES (Informations à remplir)
 track = ['mot_a_tracker_1', 'mot_a_tracker_1']
+
+extracted_tweets_dir_path = ""
  
 #### INITIALISAITON DE L'ECOUTEUR
 listener = Listener(consumer_key, consumer_secret, access_token, access_token_secret, extracted_tweets_dir_path)
@@ -102,6 +104,11 @@ from collector.collector import Collector
 ##### access_token = ""
 ##### access_token_secret = ""
 
-#### LANCEMENT DE LA COLLECTE (Informations à remplir)
+#### DEFINITION DES CONSTANTES (Informations à remplir)
+track_word = 'mot_a_tracker'
+
+extracted_tweets_dir_path = ""
+
+#### LANCEMENT DE LA COLLECTE
 collector = Collector(consumer_key, consumer_secret, access_token, access_token_secret,extracted_tweets_dir_path)
-collector.collect('mot_a_tacker')
+collector.collect(track_word)
