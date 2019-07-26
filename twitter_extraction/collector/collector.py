@@ -5,14 +5,14 @@ Auteur : Anaïs HOAREAU
 Date : 07/2019
 GitHub : https://github.com/anaishoareau
 Linkedin : https://www.linkedin.com/in/ana%C3%AFs-hoareau-a2a042183/
-
 """
 
 """ 
-Il ne doit pas y avoir de fichier pour les 10 derniers jours, 
-sinon le code réécrit les mêmes tweets que ceux déjà présents dans 
+Il ne doit pas y avoir déjà de fichiers pour les 10 derniers jours, 
+sinon collecteur réécrit les mêmes tweets que ceux déjà présents dans 
 les fichiers correspondants.
 """
+
 # IMPORTS 
 import tweepy
 from tweepy import OAuthHandler
