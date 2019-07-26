@@ -21,7 +21,8 @@ https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens
 ### Installation du package twitter_extraction
 
 #### Vérifier que les commandes pip et git sont installées
-#### Executer la commande (dans Anaconda Prompt par exemple) : pip install git+https://github.com/anaishoareau/twitter_extraction.git
+#### Executer la commande (dans Anaconda Prompt par exemple) : 
+#### pip install git+https://github.com/anaishoareau/twitter_extraction.git
 
 
 
@@ -94,10 +95,10 @@ https://github.com/ksahnine/datascience-twitter/blob/master/scripts/collect/coll
 from collect.collect import collect
 
 #### AUTHENTIFICATION (Informations à remplir)
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+consumer_key = ""\n
+consumer_secret = ""\n
+access_token = ""\n
+access_token_secret = ""\n
 
 #### LANCEMENT DE LA COLLECTE (Informations à remplir)
 collect('mot_a_tacker',consumer_key, consumer_secret, access_token, access_token_secret, extracted_tweets_dir_path)
