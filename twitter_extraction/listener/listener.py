@@ -6,7 +6,6 @@ Date : 07/2019
 GitHub : https://github.com/anaishoareau
 Linkedin : https://www.linkedin.com/in/ana%C3%AFs-hoareau-a2a042183/
 
-Source : https://badhessian.org/2012/10/collecting-real-time-twitter-data-with-the-streaming-api/
 """
 
 # IMPORTS 
@@ -57,10 +56,6 @@ class Listener(StreamListener):
     def on_status(self, status):
         
         self.output.write(status + "\n")
-        
-        ## On les affiche au fur et à mesure, mais ce n'est pas nécessaire
-        print(status)
-        
         self.counter += 1
         
         if self.counter >= 20000 :
