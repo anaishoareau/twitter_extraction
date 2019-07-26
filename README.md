@@ -1,6 +1,6 @@
 # TWEETER EXTRACTION
 
- Méthode d'extraction de tweets avec tweepy
+ Méthode d'extraction de tweets avec le package python « tweepy ».
 
 
 
@@ -20,9 +20,9 @@ https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens
 
 ### Installation du package twitter_extraction
 
-#### Vérifier que les commandes pip et git sont installées
-#### Executer la commande (dans Anaconda Prompt par exemple) : 
-#### pip install git+https://github.com/anaishoareau/twitter_extraction.git
+#### Vérifier que la commandes pip est installée
+#### Vérifier que le package python « git » est installé
+#### Exécuter la commande : pip install git+https://github.com/anaishoareau/twitter_extraction.git
 
 
 
@@ -93,7 +93,7 @@ https://github.com/ksahnine/datascience-twitter/blob/master/scripts/collect/coll
 ### Exemple d'utilisation du collecteur
 
 #### IMPORT 
-from collect.collect import collect
+from collector.collector import Collector
 
 #### AUTHENTIFICATION (Informations à remplir)
 
@@ -103,4 +103,5 @@ from collect.collect import collect
 ##### access_token_secret = ""
 
 #### LANCEMENT DE LA COLLECTE (Informations à remplir)
-collect('mot_a_tacker',consumer_key, consumer_secret, access_token, access_token_secret, extracted_tweets_dir_path)
+collector = Collector(consumer_key, consumer_secret, access_token, access_token_secret,extracted_tweets_dir_path)
+collector.collect('mot_a_tacker')
