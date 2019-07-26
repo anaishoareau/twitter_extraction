@@ -20,7 +20,7 @@ https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens
 
 ### Installation du package twitter_extraction
 
-#### Vérifier que la commandes pip est installée
+#### Vérifier que la commande pip est installée
 #### Vérifier que le package python « git » est installé
 #### Exécuter la commande : pip install git+https://github.com/anaishoareau/twitter_extraction.git
 
