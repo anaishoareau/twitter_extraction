@@ -55,12 +55,16 @@ from listener.listener import Listener
 
 #### AUTHENTIFICATION (Informations à remplir)
 
-##### consumer_key = ""
-##### consumer_secret = ""
-##### access_token = ""
-##### access_token_secret = ""
+consumer_key = ""
+
+consumer_secret = ""
+
+access_token = ""
+
+access_token_secret = ""
 
 #### DEFINITION DES CONSTANTES (Informations à remplir)
+
 track = ['mot_a_tracker_1', 'mot_a_tracker_1']
 
 extracted_tweets_dir_path = ""
@@ -99,12 +103,16 @@ from collector.collector import Collector
 
 #### AUTHENTIFICATION (Informations à remplir)
 
-##### consumer_key = ""
-##### consumer_secret = ""
-##### access_token = ""
-##### access_token_secret = ""
+consumer_key = ""
+
+consumer_secret = ""
+
+access_token = ""
+
+access_token_secret = ""
 
 #### DEFINITION DES CONSTANTES (Informations à remplir)
+
 track_word = 'mot_a_tracker'
 
 extracted_tweets_dir_path = ""
