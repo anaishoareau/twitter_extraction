@@ -18,3 +18,4 @@ setup(name='twitter_extraction',
       author='Anaïs HOAREAU',
       packages=find_packages(),
       install_requires=['tweepy'])
+
