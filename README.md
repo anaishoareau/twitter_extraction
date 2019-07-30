@@ -1,4 +1,4 @@
-# TWEETER EXTRACTION
+# TWITTER EXTRACTION
 
  Méthode d'extraction de tweets avec le package python « tweepy ».
 
